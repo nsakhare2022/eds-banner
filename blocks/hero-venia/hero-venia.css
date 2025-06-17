@@ -1,0 +1,55 @@
+.hero-venia {
+  position: relative;
+}
+
+.text-container {
+  min-height: 3.125rem;
+  width: 100%;
+  max-width: 33.75rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: auto;
+  margin: auto;
+  text-align: center;
+  color: #FFFFFF;
+  
+  @media (min-width: 41.188rem) {
+    padding: 5rem; 
+    color:#000000;
+    margin: unset;
+    text-align: left;
+  }
+}
+
+.heading {
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+}
+
+.cta {
+  background-color: #007bff;
+  padding: 0.75rem 1.5rem;
+  min-width: 12rem;
+  text-transform: capitalize;
+}
+
+.image {
+  max-width: 25rem;
+  width: 100%;
+  height: auto;
+}
+
+.image img {
+  @media (max-width: 59.875rem) {
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+  object-position: right;
+  min-height: 41.25rem;
+  }
+}
+
